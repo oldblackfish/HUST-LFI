@@ -4,11 +4,11 @@
 
 **Note: First, we convert the dataset into H5 files using MATLAB. Then, we train and test the model in Python.**
 
-# HUST-LFI database
+# HUST-LFI Database
 
 Please download the full database on [Baidu drive](https://pan.baidu.com/s/1RKPRMZ72cDzO8t3fzmkloA) (code: HUST).
 
-# MM-BLFQA metric
+# MM-BLFQA Metric
 
 ### Train
 Train the model using the following command:
