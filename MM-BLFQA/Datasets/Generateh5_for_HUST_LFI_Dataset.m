@@ -48,11 +48,10 @@ for iScene = 1 : Distorted_sceneNum
     LF = LF(0.5*(U-angRes+2):0.5*(U+angRes), 0.5*(V-angRes+2):0.5*(V+angRes), :, :, :);
     [U, V, H, W, ~] = size(LF);
     
-    dis_mli = single(zeros(U * patchsize, V * patchsize));
-
     label = Mos(iScene);
     for h = 1 : stride : H - patchsize + 1
         for w = 1 : stride : W - patchsize + 1
+        dis_mli = single(zeros(U * patchsize, V * patchsize));
             for u = 1 : U
                 for v = 1 : V
                     temp_dis = squeeze(LF(u, v, h : h+patchsize-1, w : w+patchsize-1, :));
