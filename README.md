@@ -1,4 +1,4 @@
-**Official HUST-LFI database and MM-BLFQA metric code for the ACM MM 2026 paper "Perceptual Quality Assessment for Light Field Image Compression: A Subjective Database and Objective Metric".**
+**Official HUST-LFI database and MM-BLFQA metric code for the ACM MM 2026 paper "Perceptual Quality Assessment for Light Field Image Compression: A Subjective Database and Objective Metric".  Please refer to the [paper](https://dl.acm.org/doi/10.1145/3767308.3835943) for details.****
 
 ![image](https://github.com/oldblackfish/HUST-LFI/blob/main/fig/ACMMM2026_Poster.png)
 
